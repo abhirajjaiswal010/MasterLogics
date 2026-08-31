@@ -29,7 +29,7 @@ Output : Invalid Time
 
 hrs,min=map(int,input("Enter The Time IN HH:MM ->").split(":"))
 
-if 0<=hrs<=24 and 0<=min<60:
+if 0<=hrs<24 and 0<=min<60:
     if 0<=hrs<=11:
         print("AM")
     else:
